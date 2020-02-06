@@ -38,11 +38,11 @@ export const navItem = (isActive: boolean, isSubItemActive: boolean) => css`
   position: relative;
   height: 36px;
   font-size: 12px;
-  color: #605e5c;
+  color: #545454;
   background: ${isActive && !isSubItemActive ? '#f2f2f2' : 'transparent'};
   font-weight: ${isActive ? FontWeights.semibold : FontWeights.regular};
   &: hover {
-    color: #605e5c;
+    color: #545454;
     background: #f2f2f2;
   }
   &:focus {
